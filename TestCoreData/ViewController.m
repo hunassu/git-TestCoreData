@@ -66,6 +66,8 @@
             abort();
         }
     }
+    
+    //取り出し
     NSFetchRequest *fr = [[NSFetchRequest alloc]init];
     NSEntityDescription *ed = [NSEntityDescription entityForName:@"Product" inManagedObjectContext:moc];
     fr.entity = ed;
