@@ -24,12 +24,14 @@
 	
     data = nil;
     
+    //データモデル
+    
     NSBundle *bd = [NSBundle mainBundle];
     NSString *rpath = [bd pathForResource:@"ProductModel" ofType:@"momd"];
     NSURL *rurl = [NSURL fileURLWithPath:rpath];
     NSManagedObjectModel *mom = [[NSManagedObjectModel alloc] initWithContentsOfURL:rurl];
     
-    //
+    //データベース
     
     BOOL isFile = NO;
     NSString *dir = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"];
