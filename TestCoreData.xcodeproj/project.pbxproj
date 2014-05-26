@@ -123,9 +123,9 @@
 				EC1AB79D1933831D00B1F078 /* Main.storyboard */,
 				EC1AB7A01933831D00B1F078 /* ViewController.h */,
 				EC1AB7A11933831D00B1F078 /* ViewController.m */,
+				EC1AB7C219338B2A00B1F078 /* ProductModel.xcdatamodeld */,
 				EC1AB7A31933831D00B1F078 /* Images.xcassets */,
 				EC1AB7921933831D00B1F078 /* Supporting Files */,
-				EC1AB7C219338B2A00B1F078 /* ProductModel.xcdatamodeld */,
 			);
 			path = TestCoreData;
 			sourceTree = "<group>";
