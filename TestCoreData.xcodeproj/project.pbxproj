@@ -22,6 +22,7 @@
 		EC1AB7B51933831D00B1F078 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC1AB7B31933831D00B1F078 /* InfoPlist.strings */; };
 		EC1AB7B71933831D00B1F078 /* TestCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1AB7B61933831D00B1F078 /* TestCoreDataTests.m */; };
 		EC1AB7C11933836D00B1F078 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1AB7C01933836D00B1F078 /* CoreData.framework */; };
+		EC1AB7C419338B2A00B1F078 /* ProductModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC1AB7C219338B2A00B1F078 /* ProductModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		EC1AB7B41933831D00B1F078 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC1AB7B61933831D00B1F078 /* TestCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCoreDataTests.m; sourceTree = "<group>"; };
 		EC1AB7C01933836D00B1F078 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EC1AB7C319338B2A00B1F078 /* ProductModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				EC1AB7A11933831D00B1F078 /* ViewController.m */,
 				EC1AB7A31933831D00B1F078 /* Images.xcassets */,
 				EC1AB7921933831D00B1F078 /* Supporting Files */,
+				EC1AB7C219338B2A00B1F078 /* ProductModel.xcdatamodeld */,
 			);
 			path = TestCoreData;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				EC1AB7A21933831D00B1F078 /* ViewController.m in Sources */,
 				EC1AB79C1933831D00B1F078 /* AppDelegate.m in Sources */,
 				EC1AB7981933831D00B1F078 /* main.m in Sources */,
+				EC1AB7C419338B2A00B1F078 /* ProductModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +474,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC1AB7C219338B2A00B1F078 /* ProductModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC1AB7C319338B2A00B1F078 /* ProductModel.xcdatamodel */,
+			);
+			currentVersion = EC1AB7C319338B2A00B1F078 /* ProductModel.xcdatamodel */;
+			path = ProductModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EC1AB7801933831D00B1F078 /* Project object */;
 }
